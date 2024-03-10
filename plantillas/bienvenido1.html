@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django</title>
+</head>
+<body>
+    <h1>Bienvenido al curso de python</h1>
+    <h2>es la segunda clase de Django</h2>
+    <h3>Bienvenido {{nombre}},{{apellido}}</h3>
+    <h3> Hoy es {{hoy}}</h3>
+    {% for n in notas %}
+        <p style="color: green;">{{n}}
+    {% endfor %}
+    </p>
+</body>
+</html>
